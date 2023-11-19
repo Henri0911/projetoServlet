@@ -1,0 +1,314 @@
+/* Estilos gerais */
+
+*{
+    margin: 0px;
+
+    padding: 0px;
+
+    box-sizing: border-box;
+
+    outline: none;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root{
+
+    --red: #d4470e ;
+    --blue: #6959CD;
+    --grey: #ebebeb;
+    
+}
+
+html,
+body {
+    
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background: var(--grey);
+}
+
+header {
+
+    width: 100%;
+    background-color: var(--blue) ;
+    color: var(--grey);
+    text-align:left;
+    padding: 20px;
+}
+
+
+
+nav ul {
+    list-style-type:none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+     color: #fff;
+    font-weight: bold;
+}
+
+.reservation-form {
+    
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 30px auto;
+    padding: 30px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #fff;
+
+}
+
+
+.reservation-form h2 {
+
+    color: var(--blue);
+    
+}
+
+.reservation-form h1 {
+
+    color: var(--blue);
+
+}
+
+.resultado {
+
+    color: #00000070;
+    font-size: 18px;
+}
+
+.reservation-form img {
+
+
+    margin-top: 20px;
+    width: 50%;
+
+    
+}
+
+.reservation-form label {
+
+    color: var(--blue);
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+
+
+}
+
+.reservation-form input {
+    
+    width: 100%;
+    padding: 8px;
+    background-color: #fff;
+    font-size: 12px;
+    border: 1px solid var(--grey);
+    border-radius: 5px;
+
+
+}
+
+.reservation-form select {
+    
+    width: 100%;
+    padding: 8px;
+    background-color: #fff;
+    font-size: 12px;
+    border: 1px solid var(--grey);
+    border-radius: 5px;
+
+
+}
+
+.reservation-form button {
+
+    width: 90%;
+    margin-top: 40px;
+    padding: 15px 0px;
+    border: none;
+    background: var(--blue);
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    
+    margin-bottom: 10px;
+}
+
+.reservation-form button:hover {
+
+    transition: 0.3 ease;
+    background-color: var(--grey);
+    color: var(--blue);
+
+}
+
+.form-group {
+    margin: 10px 0;
+    text-align: left;
+    
+}
+
+form label {
+    display: block;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    background-color:  #6959CD;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+
+    background-color: var(--grey);
+    color: var(--blue) ;
+}
+
+
+ footer {
+
+    width: 100%;
+    height: 250px;
+        
+    }
+
+.main {
+
+    width: 100%;
+    
+        height: 200px;
+    
+        background: #fff;
+    
+        
+        padding: 20px;
+}
+
+
+.footer-links {
+
+        flex-direction: column;
+
+        padding-left: 10%;
+    }
+
+footer .last {
+
+        width: 100%;
+    
+        height: 50px;
+    
+        background: #6959CD;
+    
+        color: #ebebeb;
+    
+        display: flex;
+    
+        align-items: center;
+    
+        justify-content: center;
+    
+    }
+
+.main .footer-social img {
+
+        width: 32px;
+    
+        height:  32px;
+    }
+
+
+.footer-links {
+
+    max-width: 1000px;
+
+    min-width: 300px;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    margin-top: 20px;
+
+}
+
+.footer-company, .footer-rental, .footer-contact, .footer-social {
+
+    color:  var(--blue);
+    height: 100%;
+
+    min-height: 100px;
+}
+
+.footer-links h4 {
+
+    margin-bottom: 10px;
+
+    
+}
+
+.footer-links {
+
+    margin-bottom: 8px;
+     }
+
+.content {
+
+
+    margin-left: 0px;
+
+}
+   
+.brand {
+
+            font-family: 'Sans-serif', sans-serif;
+            font-size: 40px;
+            color: var(--grey); /* Cor do texto */
+            text-transform: uppercase;
+            letter-spacing: 2px; /* Espaçamento entre letras */
+            font-weight: bold;
+        }
+        
+        .brand-text {
+            color: var(--grey); /* Cor do primeiro segmento de texto */
+        }
+        
+.menu-button, li a {
+            font-family: 'Arial', sans-serif;
+            font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
+            
+            text-decoration: none;
+            color: #fafafa; /* Cor do texto */
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+     
+.main{
+            font-family: 'sans-serif', Arial, sans-serif;
+        }

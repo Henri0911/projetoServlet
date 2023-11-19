@@ -1,0 +1,5 @@
+INDEX VERSION 1.134
+C:\Users\Darsh\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1828286332.index
+\WProjeto\src\main\java
+C:\Users\Darsh\Documents\workspace-spring-tool-suite-4-4.20.1.RELEASE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1204059174.index
+\WLocaCar\src\main\java

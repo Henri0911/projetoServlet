@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="icon" href="imagens/logo site.png">
+    <title>Reserva de Carro</title>
+</head>
+
+<body>
+    <header>
+        <div class="content">
+            <nav>
+                <p class="brand">loca<strong>car</strong></p>              
+                <ul>
+                    <li><a href="index.jsp">Home</a></li>                  
+                </ul>
+            </nav>       
+    </header>
+    
+    <section class="reservation-form">
+        <h2>C3</h2>
+        <img src="imagens/9C3.png" alt="carro">
+
+        <h1>Sua Reserva:</h1>
+        <br>
+        <h1><div class="resultado" id="resultado"></div></h1>
+
+        <script>
+            // Recuperar dados do localStorage e exibi-los na página
+            const dataInicial = localStorage.getItem('dataInicial');
+            const duracao = localStorage.getItem('duracao');
+            const dataFinal = localStorage.getItem('dataFinal');
+            const totalValor = localStorage.getItem('totalValor');
+    
+            const resultadoDiv = document.getElementById('resultado');
+            resultadoDiv.textContent = `Data Inicial: ${dataInicial}\nDuração: ${duracao} dia(s)\nData Final: ${dataFinal}\nValor Total: ${totalValor}`;
+        </script>
+
+    </section>
+
+    <footer>
+            <div class="main">
+    
+                <div class="content footer-links">
+    
+                    <div class="footer-company">
+                        
+                        <h4>Empresa</h4>
+    
+                        <h6>Sobre</h6>
+    
+                        <h6>contact</h6>
+                    </div>
+    
+                    <div class="footer-rental">
+                        <h4>Aluguel</h4>
+                        <h6>self-Drive</h6>
+                        <h6>Motorista</h6>
+                        <h6>Ajuda</h6>
+                    </div>
+    
+                    <div class="footer-social">
+    
+                        <h4>Permaneça conectado</h4>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/henrique_darsh/">
+                                <img src="imagens/instagram.png" alt="Instagram" >
+                            </a>
+
+                            <a href="https://www.facebook.com/darsh.schneider.3/">
+                                <img src="imagens/facebook-logo.png" alt="Facebook" >
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer-contact">
+                        <h4>Contato</h4>
+
+                        <h6> 11 977159716</h6>
+                        <h6> henrique.perazzo@hotmail.com</h6>
+                        <h6>Santo Amaro, São Paulo - SP</h6>
+
+                    </div>
+                </div>
+            </div>
+    
+            <div class="last"> HP.LoveCraft </div>
+    </footer>
+</body>
+</html>
